@@ -1,0 +1,167 @@
+@media (max-width: 1400px) {
+    body {
+        background-image: none;
+    }
+
+    .wrapper {
+        padding: 72px;
+        width: 1192px;
+    }
+
+    .cards {
+        gap: 74px 40px;
+        margin-top: 120px;
+    }
+
+    .card {
+        width: 576px;
+        padding-right: 160px;
+    }
+
+    .card:nth-child(1) {
+        order: 1;
+    }
+
+    .card:nth-child(2) {
+        order: 4;
+    }
+
+    .card:nth-child(3) {
+        order: 3;
+    }
+
+    .card:nth-child(4) {
+        order: 5;
+    }
+
+    .card:nth-child(5) {
+        order: 6;
+    }
+
+    .card:nth-child(6) {
+        order: 2;
+    }
+
+    .card:nth-child(7) {
+        order: 7;
+    }
+
+    .card:nth-child(8) {
+        order: 8;
+    }
+
+    .card-large {
+        margin-top: 0;
+    }
+
+    .workingMode {
+        margin-top: 604px;
+        width: 540px;
+    }
+
+    .workingMode__btn1 {
+        margin-top: 40px;
+    }
+
+
+
+    .private {
+        margin-top: 122px;
+        width: 540px;
+    }
+
+    .private__title {
+        color: rgb(47, 47, 47);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 160%;
+        text-align: left;
+    }
+
+    .private__description {
+        width: 540px;
+    }
+
+    .aboutus {
+        margin-top: 120px;
+        width: 540px;
+    }
+
+    .aboutUs__description {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 540px;
+        margin-bottom: 40px;
+    }
+
+    .form {
+        margin-top: 120px;
+    }
+
+    .form__flexBlock {
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+
+    .form__redBlock {
+        margin-bottom: 36px;
+    }
+
+    .form__flexBlock__left {
+        width: 1192px;
+    }
+
+    .form__input {
+        width: 576px;
+    }
+
+    .form__input_cont {
+        width: 576px;
+    }
+
+    .form__header__container {
+        width: 240px;
+        height: 48px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+    .form__input:nth-child(1) {
+        margin-right: 35px;
+    }
+
+    .form__flexBlock__right {
+        width: 1192px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .form__flexBlock__description {
+        width: 768px;
+        margin-right: 184px;
+    }
+
+
+
+
+    .footer {
+        min-width: 1336px;
+        margin-top: 120px;
+    }
+
+    .footer__container {
+        width: 1192px;
+    }
+
+    .footer__container-left {
+        width: 433px;
+    }
+
+    .footer__container-right {
+        width: 268px;
+    }
+}

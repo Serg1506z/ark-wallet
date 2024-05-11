@@ -1,0 +1,11 @@
+@font-face {
+    font-family: TT Firs Neue;
+    src: url(../fonts/TTFirsNeue-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+}

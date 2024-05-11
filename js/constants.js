@@ -1,0 +1,10 @@
+export const form = document.querySelector("#form")
+export const formElements = Array.from(form.elements).filter(item => item.tagName !== 'BUTTON')
+export const { submit } = form.elements
+export const cards = document.querySelectorAll(".card:not(.card-consult)")
+export const overlay = document.querySelector(".overlay")
+export const privateBtn = document.querySelector(".private__btn")
+export const sectionForm = document.querySelector(".form")
+export const mainBtn = document.querySelector(".main__btn")
+export const containerCards = document.querySelector(".cards")
+export const redContainer = document.querySelector(".form__redBlok__container")

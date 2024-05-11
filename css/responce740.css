@@ -1,0 +1,305 @@
+@media (max-width: 740px) {
+    body {
+        background-image: none;
+    }
+
+    .wrapper {
+        width: 604px;
+        padding: 68px;
+    }
+
+    .header__logo {
+        width: 288px;
+        background-image: url(../img/header_logo740.png);
+        background-repeat: no-repeat;
+    }
+
+    .header__link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .main__title {
+        font-size: 24px;
+        width: 288px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 288px;
+    }
+
+    .main__text {
+        width: 208px;
+        font-size: 14px;
+    }
+
+    .main__btn {
+        display: none;
+    }
+
+    .main__subtitle {
+        font-family: TT Firs Neue;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 3px;
+        text-align: left;
+        width: 288px;
+        margin-top: 68px;
+    }
+
+    .text-large {
+        font-size: 14px;
+        margin-bottom: 68px;
+    }
+
+    .cards {
+        gap: 42px 28px;
+    }
+
+    .card {
+        padding: 16px 60px 30px 16px;
+        width: 288px;
+
+    }
+
+
+
+    .card:nth-child(2) {
+        order: 3;
+    }
+
+    .card:nth-child(3) {
+        order: 4;
+    }
+
+
+
+    .card__title {
+        font-size: 20px;
+
+    }
+
+
+
+    .card__btn {
+        font-size: 16px;
+        bottom: -20px;
+    }
+
+    .workingMode {
+        position: relative;
+        padding-left: 50%;
+        margin: 252px 0 0;
+        width: 288px;
+
+    }
+
+    .workingMode_title {
+        font-size: 20px;
+        width: 288px;
+    }
+
+    .workingMode__btn1 {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .workingMode__btn2 {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .workingMode__btn3 {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .workingMode__btn4 {
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .workingMode__description {
+        width: 288px;
+        font-size: 14px;
+    }
+
+    .absolute {
+        position: absolute;
+        left: 0;
+    }
+
+    .private {
+        width: 100%;
+        padding-right: 50%;
+        margin-top: 119px;
+    }
+
+    .privaet__title {
+        font-size: 20px;
+        letter-spacing: 3px;
+        width: 288px;
+    }
+
+    .private__description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .private__btn {
+        width: 100%;
+        height: 61px;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        background-position-x: 16px;
+    }
+
+    .aboutus {
+        width: 288px;
+        margin-top: 68ox;
+    }
+
+    .aboutUs__title {
+        font-size: 20px;
+    }
+
+    .aboutUs__description {
+        font-size: 14px;
+        width: 288px;
+    }
+
+
+
+    .form {
+        width: 100%;
+        margin-top: 68px;
+    }
+
+    .form__redBlock {
+        width: 604;
+        margin-bottom: 34px;
+    }
+
+    .form__redBlock__title {
+        font-size: 16px;
+    }
+
+    .form__flexBlock {
+        position: relative;
+        gap: 0;
+    }
+
+    .form__input {
+        width: 288px;
+        font-size: 16px;
+        margin-top: 32px;
+
+    }
+
+    .form__input_cont {
+        width: 288px;
+    }
+
+    .input {
+        position: absolute;
+        top: -29px;
+        width: 256px;
+
+    }
+
+    .form__redBlock {
+        margin-bottom: 34px;
+    }
+
+    .form__flexBlock__right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50%;
+        width: 288px;
+        font-size: 12px;
+    }
+
+    .form__flexBlock__left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form__flexBlock__description {
+        font-size: 12px;
+        width: 288px;
+        margin-right: 0;
+        font-weight: 400;
+        line-height: 160%;
+
+    }
+
+    .form__textarea {
+        width: 604px;
+        font-size: 16px;
+        padding: 14px 16px 16px 16px;
+        margin-top: 88px;
+    }
+
+    .form__btn {
+        width: 288px;
+        height: 42px;
+        font-size: 16px;
+        margin-top: 32px;
+    }
+
+    .form__header {
+        width: 240px;
+        height: 48px;
+        position: absolute;
+        left: 50%;
+        top: 90px;
+    }
+
+
+    .confidentiality {
+        font-size: 12px;
+    }
+
+
+    .footer {
+        min-width: 740px;
+        margin-top: 106px;
+    }
+
+    .footer__container {
+        width: 604px;
+    }
+
+
+
+    .footer_logo {
+        width: 200px;
+        background-repeat: no-repeat;
+    }
+
+    .footer_license {
+        font-size: 12px;
+    }
+
+    .footer__link {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+        background-size: contain;
+    }
+
+
+}

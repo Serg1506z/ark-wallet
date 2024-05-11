@@ -1,0 +1,638 @@
+body {
+    background-image: url(../img/1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.wrapper {
+    width: 1448px;
+    box-sizing: content-box;
+    padding: 72px 20px 0;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    background-image: url(../img/header_logo.png);
+    width: 526px;
+    height: 48px;
+    display: block;
+}
+
+.header__container {
+    display: flex;
+    gap: 16px;
+}
+
+.header__link {
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(246, 246, 246);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.icon-tg {
+    background-image: url(../img/icon_telegram.svg);
+}
+
+
+
+.icon-s {
+    background-image: url(../img/icon_s.svg);
+}
+
+
+.icon-skype {
+    background-image: url(../img/icon_skype.svg);
+}
+
+.icon-mail {
+    background-image: url(../img/icon_mail.svg);
+}
+
+.icon-tg:hover {
+    background-image: url(../img/telegram-active.svg);
+    background-color: #F96D6B;
+}
+
+.icon-s:hover {
+    background-image: url(../img/s-active.svg);
+    background-color: #F96D6B
+}
+
+.icon-skype:hover {
+    background-image: url(../img/skype-active.svg);
+    background-color: #F96D6B
+}
+
+.icon-mail:hover {
+    background-image: url(../img/mail-active.svg);
+    background-color: #F96D6B
+}
+
+
+.main__title {
+    font-family: TT Firs Neue;
+    font-size: 60px;
+    width: 762px;
+    margin-top: 256px;
+    letter-spacing: 9px;
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 9px;
+    text-align: left;
+}
+
+.main__text {
+    width: 568px;
+    margin-top: 96px;
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+}
+
+.main__btn {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 126px;
+    background-image: url(../img/icon_Group\ 328.svg);
+}
+
+.main__subtitle {
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    width: 762px;
+    margin-top: 156px;
+    color: rgb(47, 47, 47);
+}
+
+.text-large {
+    width: 958px;
+}
+
+hr {
+    width: 420px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 72px 22px;
+    margin-top: 92px;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 4px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    background: rgb(250, 250, 250);
+    width: 468px;
+    padding: 40px 135px 78px 40px;
+    position: relative;
+
+}
+
+.card__title {
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 16%;
+    text-align: left;
+}
+
+.card__btn {
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(112, 112, 112);
+    position: absolute;
+    bottom: -44px;
+    padding: 10px 32px;
+    border: none;
+
+}
+
+
+.card-large {
+    width: 958px;
+    margin-top: -105px;
+    padding-right: 500px;
+}
+
+.card-consult {
+    padding: 32px 168px 30px 40px;
+}
+
+.card-consult .card__btn {
+    right: -4px;
+    top: -4px;
+    bottom: -4px;
+    width: 50px;
+    background-image: url(../img/right_vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F96D6B;
+    width: 80px;
+    border-radius: 0 8px 8px 0;
+}
+
+.card__btn:hover {
+    background-color: rgb(249, 109, 107);
+}
+
+
+.workingMode {
+    width: 712px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: 0;
+
+
+
+}
+
+.workingMode_title {
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 16%;
+
+}
+
+
+.workingMode__btn1 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/1.svg);
+    background-color: #707070;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+
+.workingMode__btn2 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/2.svg);
+    background-color: #707070;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-top: 64px;
+}
+
+.workingMode__btn3 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/3.svg);
+    background-color: #707070;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-top: 64px;
+}
+
+
+
+.workingMode__btn4 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/4.svg);
+    background-color: #707070;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-top: 64px;
+}
+
+.btn-background:hover {
+    background-color: rgb(249, 109, 107);
+}
+
+.workingMode__description {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.private {
+    margin-top: 160px;
+}
+
+.privaet__title {
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 16%;
+    text-align: left;
+    margin-bottom: 46px;
+}
+
+.private__description {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 761px;
+
+}
+
+
+.private__btn {
+    border-radius: 8px;
+    width: 400px;
+    height: 68px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon_telegram.svg);
+    background-position-y: center;
+    background-position-x: 32px;
+    border: none;
+    margin-top: 40px;
+}
+
+
+.aboutus {
+    margin-top: 170px;
+}
+
+
+.aboutUs__title {
+    color: rgb(47, 47, 47);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 16%;
+    text-align: left;
+}
+
+.aboutUs__description {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+    width: 761px;
+    margin-bottom: 54px;
+    margin-top: 54px;
+}
+
+.form {
+    margin-top: 160px;
+}
+
+.form__redBlock {
+    border-radius: 8px;
+    background: rgb(249, 109, 107);
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 90px;
+}
+
+.form__redBlok__container {
+    overflow-y: hidden;
+    height: 50px;
+}
+
+.form__redBlock__title {
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.form__flexBlock {
+    display: flex;
+    gap: 76px;
+}
+
+.form__flexBlock__left {
+    width: 912px;
+}
+
+.form__flexBlock__right {
+    width: 460px;
+}
+
+.input {
+    display: flex;
+}
+
+.form__input {
+    box-sizing: border-box;
+    border: 1px solid rgba(30, 30, 30, 0.4);
+    border-radius: 8px;
+    width: 440px;
+    height: 60px;
+    padding-left: 40px;
+    color: rgba(47, 47, 47, 0.4);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.form__input_cont {
+    width: 440px;
+}
+
+.form__input_cont:nth-child(1) {
+    margin-right: 28px;
+}
+
+.form__textarea {
+    box-sizing: border-box;
+    border: 1px solid rgba(30, 30, 30, 0.4);
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    height: 218px;
+    margin-top: 28px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: rgba(47, 47, 47, 0.4);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    resize: none;
+}
+
+.form__flexBlock__description {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form__flexBlock__footer {
+    display: flex;
+}
+
+.form__btn {
+    width: 292px;
+    height: 68px;
+    border-radius: 8px;
+    background: rgb(249, 109, 107);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: TT Firs Neue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    margin-top: 28px;
+}
+
+.confidentiality {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 460px;
+    margin-top: 38px;
+    margin-left: 54px;
+}
+
+.footer {
+    background-color: rgb(47, 47, 47);
+    padding: 60px 20px;
+    margin-top: 160px;
+    min-width: 1488px;
+}
+
+.footer_logo {
+    background-image: url(../img/footer_logo.png);
+    width: 183px;
+    height: 35px;
+    display: block;
+
+
+
+}
+
+.footer_license {
+    font-size: 20px;
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1448px;
+    margin: auto;
+}
+
+.footer__container-left {
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 164px;
+}
+
+.footer__link {
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    height: 40px;
+    background-position: left;
+    background-size: 32px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.footer-tg {
+    background-image: url(../img/footer__tg-Vector.svg);
+}
+
+.footer-s {
+    background-image: url(../img/footer__s\ 4.svg);
+}
+
+.footer-mail {
+    background-image: url(../img/footer_mail-24-filled.svg);
+}
+
+.footer-skipe {
+    background-image: url(../img/footer_skype-filled.svg);
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.form__btn:disabled {
+    background-color: grey;
+}
+
+.card__Text {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cards .card__Text {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.overlay .card__Text {
+    font-size: 20px;
+}
+
+.cards .viewCard {
+    max-height: 800px;
+}
+
+
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.489);
+    z-index: 999;
+}
+
+.none {
+    display: none;
+}
